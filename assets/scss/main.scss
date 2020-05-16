@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixins';
+
+@import 'UI/index';
+
+
+body {
+  background-color: $background;
+}
+.button.is-primary {
+  background-color: $accent1;
+}
+a {
+  color: $accent2;
+}
+h1.title{
+  color: $secondary;
+}
+p {
+  font-size: 14px;
+}
+h1 {
+  font-size: 3em;
+  line-height: 1.5em;
+}
+h2 {
+  font-size: 2em;
+  line-height: .8em;
+}
