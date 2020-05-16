@@ -2,6 +2,9 @@
   <div>
     <Navbar />
     <About />
+    <Skills />
+    <Experience />
+    <Portfolio />
   </div>
 </template>
 
@@ -9,11 +12,19 @@
 import Logo from '~/components/Logo.vue'
 import Navbar from '~/components/UI/Navbar.vue'
 import About from '~/components/Sections/About.vue'
+import Skills from '~/components/Sections/Skills.vue'
+import Experience from '~/components/Sections/Experience.vue'
+import Portfolio from '~/components/Sections/Portfolio.vue'
+
+
 export default {
   components: {
     Logo,
     Navbar,
-    About
+    About,
+    Skills,
+    Experience,
+    Portfolio
   }
 }
 </script>

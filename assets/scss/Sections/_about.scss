@@ -1,9 +1,13 @@
 // @import 'bubbles';
 
 #about {
-  background: rgb(255,255,255);
-background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%);
-  .container {
+  .gradient-container {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%);
+    min-height: 100vh;
+    padding-top: 20vh;
+  }
+  .container { 
     z-index: 2;
     .columns {
       width: 100%;
@@ -15,7 +19,7 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 
       text-align: left;
       .hello {
         margin-bottom: 30px;
-        background-color: #0bceaf;
+        background-color:$primary;
         color: #fff;
         max-width: 150px;
         font-size: 14px;
@@ -35,8 +39,18 @@ background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 
         margin-bottom: 40px;
       }
       a {
+        color: $secondary;
         margin: 15px 0;
         display: block;
+      }
+    }
+    .coffee-text {
+      h2 {
+        color: $secondary;
+        margin-bottom: 30px;
+      }
+      button {
+        margin-top: 30px;
       }
     }
     .cartoon-headshot{

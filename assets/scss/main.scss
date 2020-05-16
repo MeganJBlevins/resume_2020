@@ -2,10 +2,11 @@
 @import 'mixins';
 
 @import 'UI/index';
-@import 'About/index';
+@import 'Sections/index';
+
 
 body {
-  background-color: $background;
+  background-color: #fff;
 }
 .button.is-primary {
   background-color: $accent1;
