@@ -1,0 +1,59 @@
+// @import 'bubbles';
+
+#about {
+  background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%);
+  .container {
+    z-index: 2;
+    .columns {
+      width: 100%;
+      .column {
+        width: 50%;
+      }
+    }
+    .about-text {
+      text-align: left;
+      .hello {
+        margin-bottom: 30px;
+        background-color: #0bceaf;
+        color: #fff;
+        max-width: 150px;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 1px;
+        font-weight: bold;
+        padding: 10px 30px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+      }
+      h1 {
+        margin-bottom: 20px;
+      }
+      h2 {
+        margin-bottom: 40px;
+      }
+      a {
+        margin: 15px 0;
+        display: block;
+      }
+    }
+    .cartoon-headshot{
+      .img-border {
+        height: 400px;
+        width: 400px;
+        border: 20px solid rgba(0, 0, 0, 0.07);
+        margin: 0 auto;
+        border-radius: 50%;
+        img {
+          margin: 0 auto;
+          float: none;
+          text-align: center;
+          border: 20px solid rgba(0, 0, 0, 0.17);
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
