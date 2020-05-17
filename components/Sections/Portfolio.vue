@@ -3,6 +3,7 @@
     <div class="container">
     <div class="section-title">
       <h1>Portfolio</h1>
+      <p class="mobile-description">Click to Learn More</p>
     </div>
     </div>
     <div class="container">
@@ -18,11 +19,16 @@
         </div>
       </div>
     </div>
-    <Modal 
-      v-if="this.modalActive"
-      :work="this.activeWork"
-      @close-modal="closeModal"
-    />  
+    <transition 
+      name="fade"
+      @after-enter="modalActive = true"
+    >
+      <Modal 
+        v-if="this.modalActive"
+        :work="this.activeWork"
+        @close-modal="closeModal"
+      />  
+    </transition>
   </section>
 </template>
 <script>
@@ -57,7 +63,7 @@ export default {
         {
         "title": 'Mel-Fry Landing Page',
         "description": "This is more about what I did for Melfry Landing",
-        "type": "Web Development",
+        "type": "Nuxt/Vue Web Development",
         "skills": ["Nuxt", "Vue.js", "ScrollMagic", "Docker", "Netlify", "scss","html"],
         "link": "https://www.melfry-offer.com",
         "image": "images/melfry-offer.png"
@@ -97,7 +103,7 @@ export default {
          {
         "title": 'Mother Road Motorcycles',
         "description": "This site is created using mostly a default automotive theme. The customizations come in the backend where I created multiple custom feeds for their inventory to be sent to other vendors including Cars For Sale and OVE. These were written in python and operated using an export plugin in wordpress and server cron jobs for automation.",
-         "type": "Wordpress Web Development &amp; Custom Python Product Feed",
+         "type": "Wordpress Web Development & Custom Python Product Feed",
         "skills": ["Python","Wordpress","PHP","html","css","Javascript"],
         "link": "https://www.motherroadmotorcycles.com",
         "image": "images/motherRoadMotorcycles.jpg"
@@ -112,7 +118,7 @@ export default {
         },
       ]
     }
-    
+
   },
   methods: {
     activateModal(work) {

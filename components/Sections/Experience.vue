@@ -12,7 +12,7 @@
         <p class="description">{{job.description}}</p>
       </div>
     </div>
-    <div class="container">
+    <div class="container education">
     <div class="section-title">
       <h1>Education</h1>
     </div>
