@@ -3,23 +3,23 @@
     text-align: left;
     margin-bottom: 40px;
     @media screen and (min-width: 767px){
-      margin: 0 40px;
+      margin: 0 10px;
     }
     svg {
       fill: $accent2;
     }
   }
-  .skills-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px auto;
-    p {
-      text-align: center;
-      margin: 3px 8px;
-      border: 1px solid $secondary;
-      padding: 2px 8px;
-      color: #303030;
-      border-radius: 5px;
-    }
+}
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px auto;
+  p {
+    text-align: center;
+    margin: 6px 8px;
+    border: 1px solid $secondary;
+    padding: 2px 8px;
+    color: #303030;
+    border-radius: 5px;
   }
 }

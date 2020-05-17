@@ -1,10 +1,10 @@
 <template>
-  <div 
+    <div 
     class="portfolio-modal__container"  
     aria-modal="true"
     @click.self="closeModal"
   >
-    <div class="portfolio-modal columns">
+    <div class="portfolio-modal">
       <div class="close-modal">
         <button 
           type="button"
@@ -13,17 +13,18 @@
         >&times;
         </button>
       </div>
-      <div class="column work-info">
+       <div class="work-image">
+        <img :src="work.image" :alt="'screenshot of ' + this.work.title" />
+      </div>
+      <div class="work-info">
         <h2>{{ this.work.title }}</h2>
         <p>{{ this.work.description }}</p>
-        <ul>
-          <li v-for="skill in this.work.skills" :key="skill.index">{{ skill }}</li>
-        </ul>
-        <button class="button is-primary"><a :href="this.work.link">View Live Site</a></button>
+        <div class="skills-list">
+          <p v-for="skill in this.work.skills" :key="skill.index">{{ skill }}</p>
+        </div>
+        <button class="button is-primary"><a :href="this.work.link" target="_blank">View Live Site</a></button>
       </div>
-      <div class="column work-image">
-        <img :src="'../../assets/images/' + this.work.image" :alt="'screenshot of ' + this.work.title" />
-      </div>
+     
     </div>
   </div>
 </template>

@@ -3,15 +3,41 @@
   top: 0;
   left: 0;
   background-color: rgba(0,0,0,.3);
-  height: 100vh;
-  width: 100vw;
+  height: 200vh;
+  width: 200vw;
+  z-index: 9999;
   .portfolio-modal {
     position: relative;
-    top: 25%;
-    left: 25%;
-    width: 50vw;
+    top: 5%;
+    width: 90vw;
+    left: 3%;
     min-width: 300px;
     background-color: $background;
     padding: 40px 25px;
+    h2 {
+      margin-bottom: 10px;
+    }
+    .portfolio-modal__skill-list {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .work-image {
+      margin-top: 10px;
+    }
+  }
+  .modal__close {
+    position: absolute;
+    right: 3%;
+    top: 3%;
+    font-size: 25px;
+    background-color: $accent1;
+    border-radius: 50%;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    padding: 0px;
+    line-height: 12px;
+    border: none;
+    padding-bottom: 3px;
   }
 }

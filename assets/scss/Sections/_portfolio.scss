@@ -1,10 +1,23 @@
 #portfolio {
+  .section-title {
+    h1 {
+      margin-bottom: 0px;
+    }
+    .mobile-description {
+      display: block;
+      color: $accent1;
+      @media screen and (min-width: 767px){
+        display: none;
+      }
+    }
+  }
   .column {
     display: flex
   }
   .card {
     margin-left: 10px;
     margin-right: 10px;
+    min-width: 250px;
     position: relative;
     &:hover {
       .overlay {
@@ -14,13 +27,16 @@
   }
   .overlay {
     display: none;
-    background-color: rgba(0,0,0,.2);
+    padding: 30px 10px;
+    background-color: rgba(0,136,122,.8);
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
-    padding-top: 25%;
     color: #fff;
+    h2 {
+      margin-bottom: 10px;
+    }
   }
 }
