@@ -1,6 +1,8 @@
 @import 'about';
 @import 'skills';
 @import 'experience';
+@import 'portfolio';
+@import 'contact';
 
 
 section {
@@ -8,12 +10,17 @@ section {
   padding-bottom: 25px;
   .container {
     min-height: unset;
+    padding: 0 2em;
   }
   .section-title {
     text-align: center;
   }
   .columns {
     margin-top: 30px;
+    display: flex;
+    @media screen and (max-width: 764px){
+      display: block;
+    }
   }
   .card {
     box-shadow: 0px 3px 10px 0px #888888;

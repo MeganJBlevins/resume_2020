@@ -2,17 +2,25 @@
 
 #about {
   .gradient-container {
-    background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(236,236,236,1) 67%);
     min-height: 100vh;
-    padding-top: 20vh;
+    padding-top: 25vh;
+    @media screen and (max-width: 767px){
+      padding-top: 15vh;
+    }
   }
   .container { 
     z-index: 2;
-    .columns {
-      width: 100%;
-      .column {
-        width: 50%;
+    &.gradient {
+      .columns {
+        .column {
+          @media screen and (min-width: 764px){
+            width: 55%;
+            &:first-child(){
+              width: 45%;
+            }
+          }
+          
+        }
       }
     }
     .about-text {
@@ -39,14 +47,34 @@
         margin-bottom: 40px;
       }
       a {
-        color: $secondary;
+        color: $accent1;
         margin: 15px 0;
         display: block;
+        svg {
+          margin-right: 10px;
+        }
+      }
+      span {
+        svg {
+          margin-right: 10px;
+        }
       }
     }
     .coffee-text {
+      margin-top: 0px;
+      .column {
+        width: 55%;
+        &.coffee-image {
+          width: 45%;
+          @media screen and (max-width: 767px){
+            width: 100%;
+          }
+        }
+        @media screen and (max-width: 767px){
+          width: 100%;
+        }
+      }
       h2 {
-        color: $secondary;
         margin-bottom: 30px;
       }
       button {
@@ -60,6 +88,10 @@
         border: 20px solid rgba(0, 0, 0, 0.07);
         margin: 0 auto;
         border-radius: 50%;
+        @media screen and (max-width: 500px){
+          width: 300px;
+          height: 300px;
+        }
         img {
           margin: 0 auto;
           float: none;

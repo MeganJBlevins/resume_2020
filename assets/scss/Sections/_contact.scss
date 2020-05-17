@@ -1,0 +1,21 @@
+#contact {
+  form {
+    width: 75%;
+    label {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    input {
+      width: 100%;
+      text-align: left;
+      height: 45px;
+      padding: 5px 15px;
+      font-size: 15px;
+    }
+    button {
+      margin-top: 40px;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+#portfolio {
+  .column {
+    display: flex
+  }
+  .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+    &:hover {
+      .overlay {
+        display: block;
+      }
+    }
+  }
+  .overlay {
+    display: none;
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 25%;
+    color: #fff;
+  }
+}
