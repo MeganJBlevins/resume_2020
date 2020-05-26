@@ -15,7 +15,14 @@
     background-color: $background;
     padding: 40px 25px;
     h2 {
-      margin-bottom: 10px;
+      font-size: 30px;
+      font-weight: 800;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 5px;
+      margin-bottom: 5px;
     }
     .portfolio-modal__skill-list {
       display: flex;
@@ -23,6 +30,14 @@
     }
     .work-image {
       margin-top: 10px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      margin-bottom: 20px;
+    }
+    button {
+      background-color: $accent1;
     }
   }
   .modal__close {

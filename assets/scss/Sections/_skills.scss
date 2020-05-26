@@ -16,10 +16,16 @@
   margin: 30px auto;
   p {
     text-align: center;
-    margin: 6px 8px;
+    margin-left: 0px;
+    margin-right: 13px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     border: 1px solid $secondary;
     padding: 2px 8px;
     color: #303030;
     border-radius: 5px;
+    &:hover {
+      cursor: default;
+    }
   }
 }

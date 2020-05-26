@@ -15,28 +15,52 @@
     display: flex
   }
   .card {
+    border-radius: 5px;
+    overflow: hidden;
     margin-left: 10px;
     margin-right: 10px;
     min-width: 250px;
     position: relative;
+    height: 96%;
     &:hover {
+      cursor: pointer;
       .overlay {
-        display: block;
+        transform: translateX(0);
+        opacity: 1;
       }
     }
   }
   .overlay {
-    display: none;
-    padding: 30px 10px;
-    background-color: rgba(0,136,122,.8);
+    opacity: 0;
+    padding: 20px 10px;
+    background-color: rgba(0,136,122,.9);
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 100%;
     color: #fff;
+    transition: all .3s ease;
+    transform: translateX(200%);
     h2 {
-      margin-bottom: 10px;
+      margin-bottom: 5px;
+      font-size: 25px; 
+      font-weight: 800;
+    }
+    svg {
+      margin-bottom: 5px;      
     }
   }
+}
+
+.slide-in-enter-active {
+  transition: all .3s ease;
+}
+.slide-in-leave-active {
+  transition: all .3s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.slide-in-enter, .slide-fade-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateX(25%) translateY(-25%);
+  opacity: 0;
 }

@@ -11,10 +11,11 @@
         <div class="column is-one-third" v-for="work in this.work" :key="work.index" @click="activateModal(work)" >
           <div class="card" >
             <img :src="work.image" />
-            <div class="overlay">
-              <h2>{{work.title}}</h2>
-              <p>{{work.type}}</p>
-            </div>
+              <div class="overlay">
+                <Click />
+                <h2>{{work.title}}</h2>
+                <p>{{work.type}}</p>
+              </div>
           </div>
         </div>
       </div>
@@ -33,11 +34,13 @@
 </template>
 <script>
 import Modal from '~/components/UI/Modal.vue'
+import Click from '~/components/Icons/Click.vue'
 
 export default {
   name: "Portfolio",
    components: {
     Modal,
+    Click
   },
   data () {
     return {
@@ -50,7 +53,7 @@ export default {
         "type": "Pimcore Web Development",
         "skills": ["Pimcore","Vue.js", "PHP", "Docker", "scss","html"],
         "link": "https://smuckerawayfromhome.com",
-        "image": "images/SmuckersAFH.png"
+        "image": "images/SmuckerAFH.png"
         },
          {
         "title": 'Mission Food Service',
@@ -66,7 +69,7 @@ export default {
         "type": "Nuxt/Vue Web Development",
         "skills": ["Nuxt", "Vue.js", "ScrollMagic", "Docker", "Netlify", "scss","html"],
         "link": "https://www.melfry-offer.com",
-        "image": "images/melfry-offer.png"
+        "image": "images/melfry-landing.png"
         },
         {
         "title": 'Frame Destination',
