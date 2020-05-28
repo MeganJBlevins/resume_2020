@@ -6,7 +6,10 @@
       </div>
     </div>
     <div class="container">
-      <form>
+      <form
+        action="https://formspree.io/meganjblevins@gmail.com"
+        method="POST"
+        >
         
           <fieldset>
             <label for='name'>Name</label>

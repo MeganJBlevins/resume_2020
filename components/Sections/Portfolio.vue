@@ -106,7 +106,7 @@ export default {
          {
         "title": 'Mother Road Motorcycles',
         "description": "This site is created using mostly a default automotive theme. The customizations come in the backend where I created multiple custom feeds for their inventory to be sent to other vendors including Cars For Sale and OVE. These were written in python and operated using an export plugin in wordpress and server cron jobs for automation.",
-         "type": "Wordpress Web Development & Custom Python Product Feed",
+         "type": "Wordpress & Custom Python Product Feed",
         "skills": ["Python","Wordpress","PHP","html","css","Javascript"],
         "link": "https://www.motherroadmotorcycles.com",
         "image": "images/motherRoadMotorcycles.jpg"

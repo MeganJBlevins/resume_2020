@@ -12,7 +12,7 @@
     }
   }
   .column {
-    display: flex
+    display: flex;
   }
   .card {
     border-radius: 5px;
@@ -31,8 +31,10 @@
     }
   }
   .overlay {
+    padding: 10% 3px 20px;
     opacity: 0;
-    padding: 20px 10px;
+    display: table-cell;
+    vertical-align: middle;
     background-color: rgba(0,136,122,.9);
     position: absolute;
     top: 0;
