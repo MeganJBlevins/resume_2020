@@ -1,5 +1,5 @@
 <template>
-  <section id="about">
+  <section>
     <div class="gradient-container">
     <!-- <div id="background-wrap"> -->
       <!-- <div v-for="x in 10" :key="x" class="bubble" :class="'x' + x"></div> -->
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container" id="about">
       <div class="columns coffee-text">
         <div class="column coffee-image">
           <img src="images/first-coffee.jpg" alt="but first, coffee"/>
@@ -47,7 +47,7 @@
             development home. I'm looking to find a place that I can grow and learn and develop my skills as 
             I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? 
             I'd love to find out!</p>
-            <button class="button is-primary"><a href="#">Download Resume <Download /></a></button>
+            <button class="button is-primary"><a href="Megan_Blevins_Resume_2020.pdf">Download Resume <Download /></a></button>
         </div>
       </div>
     </div>

@@ -24,6 +24,14 @@
         border-color: $accent1;
       }
     }
+    textarea {
+      width: 100%;
+      height: 200px;
+      &:focus {
+        background-color: $primary;
+        border-color: $accent1;
+      }
+    }
     button {
       margin-top: 40px;
       width: 100%;

@@ -31,7 +31,7 @@
           </div>
           <fieldset>
             <label for='message'>Message</label>
-            <input type="textarea" name="message" />
+            <textarea type="textarea" name="message" ></textarea>
           </fieldset>
         <button type="submit" class="button is-primary">Send Message</button>
       </form>
