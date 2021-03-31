@@ -47,13 +47,13 @@
           </nuxt-link>
         </div>
       </div>
+      <div 
+        class="mobile-nav__overlay"
+        @click.self="closeMobileNav"
+        v-if="this.mobileNav"
+      >
       <transition name="slide-fade">
-        <div 
-          class="mobile-nav__overlay"
-          @click.self="closeMobileNav"
-          v-if="this.mobileNav"
-        >
-          <div class="mobile-nav__container" >
+          <div class="mobile-nav__container" v-if="this.mobileNav">
             <div class="mobile-nav">
               <nuxt-link 
               class="navbar-item__mobile navbar-item"
@@ -88,8 +88,8 @@
             </nuxt-link>
             </div>
           </div>
-        </div>
-      </transition>
+        </transition>
+      </div>
     </div>
   </nav>
 </template>
@@ -138,6 +138,5 @@ export default {
 </script>
 
 <style lang="scss">
-
 
 </style>
