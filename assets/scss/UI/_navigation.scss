@@ -8,7 +8,8 @@
   }
   .navigation__container {
     display: block;
-    width: 500px;
+    width: 100%;
+    max-width: 600px;
     margin: 0 auto;
     @media screen and (max-width: 1023px) {
       width: 100%;
