@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <Navbar />
+  <div :class="{'freeze': freeze}">
+    <Navbar @freeze="freezeBody"/>
     <About />
     <Skills />
     <Experience />
@@ -29,10 +29,23 @@ export default {
     Portfolio,
     Contact
   },
+  data() {
+    return {
+      freeze: false
+    }
+  },
+  methods: {
+    freezeBody (value) {
+      this.freeze = value;
+    }
+  }
 }
 </script>
 
 <style>
+.freeze {
+  overflow: hidden;
+}
 .container {
   margin: 0 auto;
   min-height: 100vh;

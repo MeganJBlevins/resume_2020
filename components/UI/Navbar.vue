@@ -50,45 +50,43 @@
       <div 
         class="mobile-nav__overlay"
         @click.self="closeMobileNav"
-        v-if="this.mobileNav"
+        :class="{'hidden': !this.mobileNav}"
       >
-      <transition name="slide-fade">
-          <div class="mobile-nav__container" v-if="this.mobileNav">
-            <div class="mobile-nav">
-              <nuxt-link 
-              class="navbar-item__mobile navbar-item"
-              :to="{ path: '/',hash:'#about'}"
-              @click="closeMobileNav"
-            >
-              About
-            </nuxt-link>
+        <div class="mobile-nav__container" :class="{'hidden': !this.mobileNav}" >
+          <div class="mobile-nav">
             <nuxt-link 
-              class="navbar-item__mobile navbar-item"
-              :to="{ path: '/',hash:'#skills'}"
-            >
-              Skills
-            </nuxt-link>
-            <nuxt-link 
-              class="navbar-item__mobile navbar-item"
-              :to="{ path: '/',hash:'#experience'}"
-            >
-              Experience
-            </nuxt-link>
-            <nuxt-link 
-              class="navbar-item__mobile navbar-item"
-              :to="{ path: '/',hash:'#portfolio'}"
-            >
-              Portfolio
-            </nuxt-link>
-            <nuxt-link 
-              class="navbar-item__mobile navbar-item"
-              :to="{ path: '/',hash:'#contact'}"
-            >
-              Contact
-            </nuxt-link>
-            </div>
+            class="navbar-item__mobile navbar-item"
+            :to="{ path: '/',hash:'#about'}"
+            @click="closeMobileNav"
+          >
+            About
+          </nuxt-link>
+          <nuxt-link 
+            class="navbar-item__mobile navbar-item"
+            :to="{ path: '/',hash:'#skills'}"
+          >
+            Skills
+          </nuxt-link>
+          <nuxt-link 
+            class="navbar-item__mobile navbar-item"
+            :to="{ path: '/',hash:'#experience'}"
+          >
+            Experience
+          </nuxt-link>
+          <nuxt-link 
+            class="navbar-item__mobile navbar-item"
+            :to="{ path: '/',hash:'#portfolio'}"
+          >
+            Portfolio
+          </nuxt-link>
+          <nuxt-link 
+            class="navbar-item__mobile navbar-item"
+            :to="{ path: '/',hash:'#contact'}"
+          >
+            Contact
+          </nuxt-link>
           </div>
-        </transition>
+        </div>
       </div>
     </div>
   </nav>
@@ -124,19 +122,18 @@ export default {
   watch: {
     '$route' () {
       this.mobileNav = false;
+      this.$emit('freeze', false)
     }
   },
   methods: {
     showMobileNav() {
       this.mobileNav = true;
+      this.$emit('freeze', true)
     },
     closeMobileNav() {
       this.mobileNav = false;
+      this.$emit('freeze', false)
     }
   }
 }
 </script>
-
-<style lang="scss">
-
-</style>
