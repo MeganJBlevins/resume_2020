@@ -40,10 +40,10 @@
         </div>
         <div class="column">
           <h2 class="h1">About Me</h2>
-          <p>Hello, I’m a Megan, web developer based in Ozark, Missouri. 
-            I have a rich history in development, and work with many different platforms, frameworks, 
-            languages and environments! Working in a couple different agency-style positions has made 
-            my ability to assess and adapt to new projects and environments easily! I'm looking for a long-term 
+          <p>Hello, I’m Megan, a web developer based in Ozark, Missouri. 
+            I have a diverse history in development, and am comfortable with many different platforms, frameworks, 
+            languages and environments! Working in a couple different agency-style positions has helped hone 
+            my ability to assess and adapt to new projects and environments. I'm looking for a long-term 
             development home. I'm looking to find a place that I can grow and learn and develop my skills as 
             I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? 
             I'd love to find out!</p>
