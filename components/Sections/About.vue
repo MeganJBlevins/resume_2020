@@ -40,11 +40,10 @@
         </div>
         <div class="column">
           <h2 class="h1">About Me</h2>
-          <p>Hello, I’m Megan, a web developer based in Ozark, Missouri. 
-            I have a diverse history in development, and am comfortable with many different platforms, frameworks, 
-            languages and environments! Working in a couple different agency-style positions has helped hone 
-            my ability to assess and adapt to new projects and environments. I'm looking for a long-term 
-            development home. I'm looking to find a place that I can grow and learn and develop my skills as 
+          <p>Hi there! I’m Megan, a web developer living in Ozark, Missouri. 
+            I have a wide range of skills developed while working primarily in an agency setting. I'm comfortable with many different 
+            platforms, frameworks, languages and environments! And nothing makes me more excited than figuring out how to implement a new 
+            technology to solve a problem. I'm looking for a long-term development home. I'm looking to find a place that I can grow and learn and develop my skills as 
             I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? 
             I'd love to find out!</p>
             <button class="button is-primary"><a href="Megan_Blevins_Resume_2020.pdf">Download Resume <Download /></a></button>
