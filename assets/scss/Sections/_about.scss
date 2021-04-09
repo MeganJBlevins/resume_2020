@@ -90,9 +90,12 @@
   flex: 50%;
   position: relative;
   img {
-    position: absolute;
-    top: -200px;
-    left: calc(50% - 300px);
+    max-width: 600px;
+    @media screen and (min-width: $large){
+      position: absolute;
+      top: -400px;
+      left: calc(50% - 300px);
+    }
   }
 }
 .coffee-text {
