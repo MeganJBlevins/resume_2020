@@ -72,6 +72,22 @@ export default {
         "image": "images/melfry-landing.png"
         },
         {
+          "title": "Summit Hill Foods Professional Solutions",
+          "description": "This is a custom Wordpress development. Heavily utilizing ACF fields and custom templating. I created the recipes and blog filter app in vue and continue to manage updates as this site merges with the JMS Premium foods brand.",
+          "type": "Custom Wordpress Web Development",
+          "skills": ["Wordpress","PHP","HTML","scss","Vue"],
+          "link": "https://shfoodspro.com/",
+          "image": "images/shfoodspro.jpg"
+        },
+        {
+          "title": 'Rethink How You Butter',
+          "description": "This is an example of a simple Nuxt landing page hosted on Netlify connected to an AirTable API to collect leads for the SunGlow brand.",
+          "type": "Nuxt/Vue Landing Page",
+          "skills": ["Nuxt","Vue","HTML","AirTable","Netlify"],
+          "link": "https://rethinkhowyoubutter.com/",
+          "image": "images/sunglow.jpg"
+        },
+        {
         "title": 'Frame Destination',
         "description": "I have worked on many small aspects of this Magento website, including creating a module to integrate with their reviews service in order to increase site speed performance. I have also been working to migrate the site to the 2.3 Magento version. Primarily focusing on the migration of the data from one version/platform to the other.",
         "type": "Magento/Angular Web Development",
@@ -91,17 +107,9 @@ export default {
         "title": 'Hydration Health',
         "description": "I worked to conform their previous wordpress site into the shopify CMS.",
          "type": "Shopify Ecommerce Web Development",
-        "skills": ["Shopify","Liquid","html","css","Javascript"],
+        "skills": ["Shopify","Liquid","HTML","css","Javascript"],
         "link": "https://hydrationhealth.com/",
         "image": "images/HydrationHealth.jpg"
-        },
-         {
-        "title": "Angler's Port Marine",
-        "description": "While working for Frank and Maven I was the sole developer tasked with building this highly custom Wordpress WooCommerce website. ",
-         "type": "Custom Wordpress Web Development",
-        "skills": ["Wordpress","PHP","html","css","Javascript"],
-        "link": "https://www.anglersportmarine.com/",
-        "image": "images/AnglersPortMarine.jpg"
         },
          {
         "title": 'Mother Road Motorcycles',
@@ -110,15 +118,7 @@ export default {
         "skills": ["Python","Wordpress","PHP","html","css","Javascript"],
         "link": "https://www.motherroadmotorcycles.com",
         "image": "images/motherRoadMotorcycles.jpg"
-        },
-        {
-        "title": 'Clinvest Clinical Research',
-        "description": "I was tasked with the complete rebuild of this website on the wordpress platform. It's a highly custom site building on the Jupiter theme.",
-         "type": "Custom Wordpress Web Development",
-        "skills": ["Wordpress","PHP","html","css","Javascript"],
-        "link": "https://clinvest.com/",
-        "image": "images/clinvest.jpg"
-        },
+        }
       ]
     }
 
