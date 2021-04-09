@@ -9,40 +9,38 @@
       <div class="columns">
         <div class="column card">
           <CodeIcon />
-          <h2>Web Development</h2>
-          <p>While I'm not a designer, I do love to make websites and web apps look and function smoothly 
-            and beautifully! I have experience in Magento &amp; Shopify as well as Wordpress. In addition to flat 
-            custom sites of course!</p>
+          <h2>Frontend Development</h2>
+          <p>While I'm not a designer, I do love to make websites and web apps look and function smoothly and beautifully! I strive to make sites accessible with great UX.</p>
           <div class="skills-list">
-            <p> HTML</p>
-            <p>CSS</p>
-            <p>LESS</p>
-            <p>SCSS</p>
-            <p>Flexbox</p>
-            <p>Foundation</p>
-            <p>Bootstrap</p>
-            <p>GULP</p>
-            <p>Javascript/jQuery</p>
-            <p>React</p>
-            <p>VUE</p>
+            <p><span>HTML</span></p>
+            <p><span>CSS</span></p>
+            <p><span>LESS</span></p>
+            <p class="highlighted"><span>SCSS</span></p>
+            <p><span>Flexbox</span></p>
+            <p class="highlighted"><span>Grid</span></p>
+            <p><span>Foundation</span></p>
+            <p><span>Bootstrap</span></p>
+            <p><span>GULP</span></p>
+            <p><span>Javascript/jQuery</span></p>
+            <p><span>React</span></p>
+            <p class="highlighted"><span>VUE</span></p>
           </div>
         </div>
         <div class="column card">
           <AppIcon />
-          <h2>App Development</h2>
-          <p>I have moved into developing web applications and I am extremely enthusiastic about working 
-            with and learning new technologies that will help expand the project possibilities.</p>
+          <h2>Backend Development</h2>
+          <p>I'm most excited when I'm able to create a speedy API or a slick backend application. I love bringing the data to that frontend to make pretty.</p>
           <div class="skills-list">
-            <p> PHP</p>
-            <p>Python</p>
-            <p>C#</p>
-            <p>Laravel</p>
-            <p>Django</p>
-            <p>MySQL</p>
-            <p>PostgreSQL</p>
-            <p>MongoDB</p>
-            <p>Linux</p>
-            <p>Git (Bitbucket, Github, GitLab</p>
+            <p class="highlighted"><span>PHP</span></p>
+            <p><span>Python</span></p>
+            <p><span>C#</span></p>
+            <p class="highlighted"><span>Laravel</span></p>
+            <p><span>Django</span></p>
+            <p class="highlighted"><span>MySQL</span></p>
+            <p><span>PostgreSQL</span></p>
+            <p><span>MongoDB</span></p>
+            <p><span>Linux</span></p>
+            <p><span>Git (Bitbucket, Github, GitLab</span></p>
           </div>
         </div>
       </div>
