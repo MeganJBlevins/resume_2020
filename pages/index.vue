@@ -15,7 +15,7 @@ import Navbar from '~/components/UI/Navbar.vue'
 import About from '~/components/Sections/About.vue'
 import Skills from '~/components/Sections/Skills.vue'
 import Experience from '~/components/Sections/Experience.vue'
-import Portfolio from '~/components/Sections/Portfolio.vue'
+import Portfolio from '~/components/Sections/MyPortfolio.vue'
 import Contact from '~/components/Sections/Contact.vue'
 
 
