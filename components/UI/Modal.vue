@@ -20,7 +20,7 @@
         <h2>{{ this.work.title }}</h2>
         <p>{{ this.work.description }}</p>
         <div class="skills-list">
-          <p v-for="skill in this.work.skills" :key="skill.index">{{ skill }}</p>
+          <p v-for="skill in this.work.skills" :key="skill.index"><span>{{ skill }}</span></p>
         </div>
         <button class="button is-primary"><a :href="this.work.link" target="_blank">View Live Site</a></button>
       </div>
