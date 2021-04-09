@@ -58,20 +58,7 @@
       }
     }
   }
-  .coffee-text {
-    margin-top: 0px;
-    .column {
-      width: 55%;
-      &.coffee-image {
-        width: 45%;
-        @media screen and (max-width: 767px){
-          width: 100%;
-        }
-      }
-      @media screen and (max-width: 767px){
-        width: 100%;
-      }
-    }
+
     h2 {
       margin-bottom: 30px;
     }
@@ -79,24 +66,42 @@
       margin-top: 30px;
     }
   }
-  .cartoon-headshot{
-    .img-border {
-      height: 400px;
-      width: 400px;
-      border: 20px solid rgba(0, 0, 0, 0.07);
-      margin: 0 auto;
-      border-radius: 50%;
-      @media screen and (max-width: 500px){
-        width: 300px;
-        height: 300px;
-      }
-      img {
-        margin: 0 auto;
-        float: none;
-        text-align: center;
-        border: 20px solid rgba(0, 0, 0, 0.17);
-        border-radius: 50%;
-      }
+.cartoon-headshot{
+  .img-border {
+    height: 400px;
+    width: 400px;
+    border: 20px solid rgba(0, 0, 0, 0.07);
+    margin: 0 auto;
+    border-radius: 50%;
+    @media screen and (max-width: 500px){
+      width: 300px;
+      height: 300px;
     }
+    img {
+      margin: 0 auto;
+      float: none;
+      text-align: center;
+      border: 20px solid rgba(0, 0, 0, 0.17);
+      border-radius: 50%;
+    }
+  }
+}
+.coffee-image {
+  flex: 50%;
+  position: relative;
+  img {
+    position: absolute;
+    top: -200px;
+    left: calc(50% - 300px);
+  }
+}
+.coffee-text {
+  flex: 50%;
+}
+.about__container {
+  display: block;
+  margin-bottom: 50px;
+  @media screen and (min-width: $large){
+    display: flex;
   }
 }

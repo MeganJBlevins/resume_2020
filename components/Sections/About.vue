@@ -33,21 +33,14 @@
         </div>
       </div>
     </div>
-    <div class="container" id="about">
-      <div class="columns coffee-text">
-        <div class="column coffee-image">
-          <img src="images/first-coffee.jpg" alt="but first, coffee"/>
-        </div>
-        <div class="column">
-          <h2 class="h1">About Me</h2>
-          <p>Hi there! I’m Megan, a web developer living in Ozark, Missouri. 
-            I have a wide range of skills developed while working primarily in an agency setting. I'm comfortable with many different 
-            platforms, frameworks, languages and environments! And nothing makes me more excited than figuring out how to implement a new 
-            technology to solve a problem. I'm looking for a long-term development home. I'm looking to find a place that I can grow and learn and develop my skills as 
-            I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? 
-            I'd love to find out!</p>
-            <button class="button is-primary"><a href="MeganBlevinsResume.pdf">Download My Resume <Download /></a></button>
-        </div>
+    <div class="about__container container" id="about">
+      <div class="coffee-image">
+        <img src="images/first-coffee.jpg" alt="but first, coffee"/>
+      </div>
+      <div class="coffee-text">
+        <h2 class="h1">About Me</h2>
+        <p>Hi there! I’m Megan, a web developer living in Ozark, Missouri. I have a wide range of skills developed while working primarily in an agency setting. I'm comfortable with many different platforms, frameworks, languages and environments! And nothing makes me more excited than figuring out how to implement a new technology to solve a problem. I'm looking for a long-term development home. I'm looking to find a place that I can grow and learn and develop my skills as I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? I'd love to find out!</p>
+          <button class="button is-primary"><a href="MeganBlevinsResume.pdf">Download My Resume <Download /></a></button>
       </div>
     </div>
   </section>
