@@ -46,7 +46,7 @@
             technology to solve a problem. I'm looking for a long-term development home. I'm looking to find a place that I can grow and learn and develop my skills as 
             I'm always looking for a new project to expand my knowledge pool! Do you think I would fit with your company? 
             I'd love to find out!</p>
-            <button class="button is-primary"><a href="Megan_Blevins_Resume_2020.pdf">Download Resume <Download /></a></button>
+            <button class="button is-primary"><a href="MeganBlevinsResume.pdf">Download My Resume <Download /></a></button>
         </div>
       </div>
     </div>
