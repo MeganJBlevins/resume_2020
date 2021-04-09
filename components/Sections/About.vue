@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    <div class="about__container container" id="about">
+    <div class="about__container" id="about">
       <div class="coffee-image">
         <img src="images/first-coffee.jpg" alt="but first, coffee"/>
       </div>

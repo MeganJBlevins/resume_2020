@@ -97,7 +97,10 @@
 .about__container {
   display: block;
   margin-bottom: 50px;
+  padding: 0 1em;
   @media screen and (min-width: $large){
     display: flex;
+    max-width: $xlarge;
+    margin: 0 auto;
   }
 }
