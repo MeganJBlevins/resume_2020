@@ -35,7 +35,7 @@ export default {
         { "title": "Web Developer",
           "company": "Advantage Solutions (Marlin Network)",
           "dates" : "August, 2019 - Present",
-          "description": "While working with the fantastic team at Marlin Network, I have had the opportunity to work with many technologies and languages I wasn't previously familiar with.  The project I spent the most time with at Marlin Network has been Smucker Away From Home on a Pimcore-based website written in PHP. This site (and many other sites we worked on) include several vue apps and also includes a headless Magento integration for ecommerce. You can see that website in my portfolio below. Another notable project (also below) is the MelFry landing page done for Ventura Foods. It was a very complex scroll-based design written in Nuxt/Vue.js using Scroll Magic. Most of our sites run on Umbraco, a .Net based platform written in C#, and so we also worked to migrate our servers to Azure to implement a smoother development process."
+          "description": "While working with the fantastic team at Marlin Network, I have had the opportunity to work with many technologies and languages I wasn't previously familiar with.  The project I spent the most time with at Marlin Network has been Smucker Away From Home on a Pimcore-based website written in PHP. This site (and many other sites we worked on) include several vue apps as well as a headless Magento integration for ecommerce. You can see that website in my portfolio below. Another notable project (also below) is the MelFry landing page done for Ventura Foods. It was a very complex scroll-based design written in Nuxt/Vue.js using Scroll Magic. Most of our sites run on Umbraco, a .Net based platform written in C#, and so we also worked to migrate our servers to Azure to implement a smoother development process."
         }, {
           "title": "Software/Web Developer",
           "company": "Web Arc Technologies",
@@ -45,12 +45,7 @@ export default {
           "title": "Lead Web Developer",
           "company": "Frank and Maven",
           "dates": "July, 2017 - September 2018",
-          "description": "As the lead developer for Frank and Maven, I managed nearly 100 unique web servers and nearly 130 different websites. Most of these were on the Wordpress platform, while others were on Magento, Shopify and even completley custom frameworks. My role was not only one to complete the technical aspects of the job, but also to help advise and communicate with clients on their technical/web needs."
-        }, {
-          "title": "Freelance Web Developer",
-          "company": "Shiny Metal Marketing",
-          "dates": "March, 2016 - July 2017",
-          "description": "Working freelance as a web developer and designer I created mostly static bootstrap websites with a few more intricate e-commerce WooCommerce/Wordpress sites thrown in. You can see more of my portfolio below."
+          "description": "As the lead developer for Frank and Maven, I managed nearly 100 unique web servers and nearly 130 different websites. Most of these were on the Wordpress platform, while others were on Magento, Shopify and even completely custom frameworks. My role was not only one to complete the technical aspects of the job, but also to help advise and communicate with clients on their technical/web needs."
         }
       ],
       education: [

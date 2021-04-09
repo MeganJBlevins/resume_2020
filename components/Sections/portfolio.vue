@@ -49,47 +49,31 @@ export default {
       work: [
         {
         "title": 'Smucker Away From Home',
-        "description": "This project is built on the Pimcore platform using PHP. It includes multiple campaign SPAs, a custom product filter app, and a custom product import.",
+        "description": "This is more about my work with Smucker Away From Home",
         "type": "Pimcore Web Development",
-        "skills": ["Pimcore","Vue", "PHP", "Docker", "scss","HTML"],
+        "skills": ["Pimcore","Vue.js", "PHP", "Docker", "scss","html"],
         "link": "https://smuckerawayfromhome.com",
-        "image": "images/Smuckerawayfromhome.jpg"
+        "image": "images/SmuckerAFH.png"
         },
          {
         "title": 'Mission Food Service',
-        "description": "Mission Food Service is based on the Umbraco platform with a custom built Recipe database API integration.",
-        "type": "Umbraco Web Development",
-        "skills": ["Umbraco", ".NET", "Microsoft SQL Server", "scss", "HTML"],
+        "description": "This is more about my work with Mission Food Service",
+        "type": "Umbraco/.NET MVC Web Development",
+        "skills": ["Umbraco", ".NET MVC", "Microsoft SQL Server", "scss", "html"],
         "link": "http://missionfoodservice.com/",
         "image": "images/missionFoodService.png"
         },
         {
         "title": 'Mel-Fry Landing Page',
-        "description": "I was involved in this project from start to finish. The desktop version utilizes scroll magic to control the entering and exiting of the uncooked and cooked versions of the dishes.",
+        "description": "This is more about what I did for Melfry Landing",
         "type": "Nuxt/Vue Web Development",
-        "skills": ["Nuxt", "Vue", "ScrollMagic", "Netlify", "scss","HTML", "Netlify"],
+        "skills": ["Nuxt", "Vue.js", "ScrollMagic", "Docker", "Netlify", "scss","html"],
         "link": "https://www.melfry-offer.com",
         "image": "images/melfry-landing.png"
         },
         {
-        "title": "Summit Hill Foods Professional Solutions",
-        "description": "This is a custom Wordpress development. Heavily utilizing ACF fields and custom templating. I created the recipes and blog filter app in vue and continue to manage updates as this site merges with the JMS Premium foods brand.",
-         "type": "Custom Wordpress Web Development",
-        "skills": ["Wordpress","PHP","HTML","scss","Vue"],
-        "link": "https://www.anglersportmarine.com/",
-        "image": "images/shfoodspro.jpg"
-        },
-        {
-        "title": 'Rethink How You Butter',
-        "description": "This is a simple Nuxt landing page hosted on Netlify connected to an AirTable API to collect leads for the SunGlow brand.",
-         "type": "Custom Wordpress Web Development",
-        "skills": ["Nuxt", "Vue", "HTML", "AirTable", "Netlify"],
-        "link": "https://rethinkhowyoubutter.com/",
-        "image": "images/rethinkhowyoubutter.jpg"
-        },
-        {
         "title": 'Frame Destination',
-        "description": "Working on many smaller aspects of this site, I worked to maintain and provide feature upgrades, including creating a module to integrate with their reviews service in order to increase site speed performance. I was also tasked with supporting the migration of the data of this site to the 2.3 version.",
+        "description": "I have worked on many small aspects of this Magento website, including creating a module to integrate with their reviews service in order to increase site speed performance. I have also been working to migrate the site to the 2.3 Magento version. Primarily focusing on the migration of the data from one version/platform to the other.",
         "type": "Magento/Angular Web Development",
         "skills": ["Magento","Angular","PHP","html","scss"],
         "link": "https://www.framedestination.com/",
@@ -97,7 +81,7 @@ export default {
         },
         {
         "title": 'Discount Party Supplies',
-        "description": "Most of the work I did for DPS was to migrate their database from the 1.x Magento version to 2.3 version. Additionally, utilizing the Laravel framework, I created a Warehouse Management system that integrated with Magento to support the business."
+        "description": "I have done mostly work on migrating this website to the new 2.3 platform. I've worked to migrate the data from one version to the next, as well as creating a completely custom inventory management web application for their warehouse operation to use.",
         "type": "Magento/Laravel Web Development",
         "skills": ["Magento","Laravel","PHP","html","scss","Javascript"],
         "link": "https://www.discountPartySupplies.com/",
@@ -105,13 +89,20 @@ export default {
         },
         {
         "title": 'Hydration Health',
-        "description": "Hydration Health had an existing Wordpress site that linked to their Shopify shop via a subdomain. In order to streamline the purchase process, we pulled their site into Shopify and eliminating the need for the Wordrpess integration.",
+        "description": "I worked to conform their previous wordpress site into the shopify CMS.",
          "type": "Shopify Ecommerce Web Development",
         "skills": ["Shopify","Liquid","html","css","Javascript"],
         "link": "https://hydrationhealth.com/",
         "image": "images/HydrationHealth.jpg"
         },
-         
+         {
+        "title": "Angler's Port Marine",
+        "description": "While working for Frank and Maven I was the sole developer tasked with building this highly custom Wordpress WooCommerce website. ",
+         "type": "Custom Wordpress Web Development",
+        "skills": ["Wordpress","PHP","html","css","Javascript"],
+        "link": "https://www.anglersportmarine.com/",
+        "image": "images/AnglersPortMarine.jpg"
+        },
          {
         "title": 'Mother Road Motorcycles',
         "description": "This site is created using mostly a default automotive theme. The customizations come in the backend where I created multiple custom feeds for their inventory to be sent to other vendors including Cars For Sale and OVE. These were written in python and operated using an export plugin in wordpress and server cron jobs for automation.",
@@ -120,7 +111,14 @@ export default {
         "link": "https://www.motherroadmotorcycles.com",
         "image": "images/motherRoadMotorcycles.jpg"
         },
-        
+        {
+        "title": 'Clinvest Clinical Research',
+        "description": "I was tasked with the complete rebuild of this website on the wordpress platform. It's a highly custom site building on the Jupiter theme.",
+         "type": "Custom Wordpress Web Development",
+        "skills": ["Wordpress","PHP","html","css","Javascript"],
+        "link": "https://clinvest.com/",
+        "image": "images/clinvest.jpg"
+        },
       ]
     }
 
