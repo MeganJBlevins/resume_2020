@@ -66,3 +66,23 @@
   transform: translateX(25%) translateY(-25%);
   opacity: 0;
 }
+
+.portfolio__container {
+  margin-top: 30px;
+  @media screen and (min-width: $large){
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 25px;
+  }
+  @media screen and (min-width: $xlarge){
+    grid-template-columns: repeat(3,1fr);
+  }
+}
+.portfolio__card {
+  display: block;
+  margin-top: 50px;
+  @media screen and (min-width: $large){
+    max-height: 200px;
+  }
+}

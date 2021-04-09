@@ -7,8 +7,8 @@
     </div>
     </div>
     <div class="container">
-      <div class="columns is-multiline">
-        <div class="column is-one-third" v-for="work in this.work" :key="work.index" @click="activateModal(work)" >
+      <div class="portfolio__container">
+        <div class="portfolio__card" v-for="work in this.work" :key="work.index" @click="activateModal(work)" >
           <div class="card" >
             <img :src="work.image" />
               <div class="overlay">
